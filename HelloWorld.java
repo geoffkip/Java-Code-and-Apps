@@ -10,9 +10,7 @@ import de.fhpotsdam.unfolding.utils.MapUtils;
 
 /** HelloWorld
   * An application with two maps side-by-side zoomed in on different locations.
-  * Author: UC San Diego Coursera Intermediate Programming team
-  * @author Your name here
-  * Date: July 17, 2015
+  * Date: February 21, 2017
   * */
 public class HelloWorld extends PApplet
 {
@@ -78,15 +76,11 @@ public class HelloWorld extends PApplet
 		MapUtils.createDefaultEventDispatcher(this, map1);
 		MapUtils.createDefaultEventDispatcher(this, map2);
 		
-		// TODO: Add code here that creates map2 
-		// Then you'll modify draw() below
 
 	}
 
 	/** Draw the Applet window.  */
 	public void draw() {
-		// So far we only draw map1...
-		// TODO: Add code so that both maps are displayed
 		map1.draw();
 		map2.draw();
 	}
