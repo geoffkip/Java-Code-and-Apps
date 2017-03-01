@@ -1,5 +1,8 @@
 package module3;
 
+//Code to visualize earthquake magnitudes on a map
+
+
 //Java utilities libraries
 import java.util.ArrayList;
 //import java.util.Collections;
